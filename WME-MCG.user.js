@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WME Mouse Coordinate Grabber
-// @namespace    http://your-namespace.com
+// @namespace    https://github.com/DeviateFromThePlan
 // @version      2024.01.10.01
 // @description  Press 'Ctrl+.' and click on a spot to grab mouse coordinates on the Waze Map Editor
 // @author       ChatGPT & DeviateFromThePlan
