@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WME Mouse Coordinate Grabber
 // @namespace    https://github.com/DeviateFromThePlan
-// @version      2024.01.10.02
+// @version      2024.01.26.01
 // @description  Press 'Ctrl+.' to grab mouse coordinates on the Waze Map Editor without additional clicks
 // @author       ChatGPT & DeviateFromThePlan
 // @match        *://*.waze.com/*editor*
@@ -77,10 +77,8 @@
         const mouseY = event.clientY;
  
         // Convert document coordinates to map coordinates
-        const mapCoordinates = Waze.map.getLonLatFromViewPortPx(new OpenLayers.Pixel(mouseX, mouseY)).transform(
-            Waze.map.getProjectionObject(),
-            new OpenLayers.Projection('EPSG:4326')
-        );
+        const mapCoordinates = W.map.getLonLatFromViewPortPx(new OpenLayers.Pixel(mouseX, mouseY));
+        console.log("Map Coordinates are: " + mapCoordinates);
  
         // Format and copy coordinates to clipboard
         const formattedCoordinates = `${mapCoordinates.lat.toFixed(6)}, ${mapCoordinates.lon.toFixed(6)}`;
