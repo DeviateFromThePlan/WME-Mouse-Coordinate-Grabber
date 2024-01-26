@@ -7,3 +7,5 @@ Note: There have been some human edits since [V1](https://github.com/DeviateFrom
 The Waze Forum for the script can be found [here](https://www.waze.com/forum/viewtopic.php?t=402506).
 #
 [![](https://i.ibb.co/JzHFKzj/button-install-here.png)](https://github.com/DeviateFromThePlan/WME-Mouse-Coordinate-Grabber/releases/latest/download/WME-MCG.user.js)
+
+<a href="https://github.com/DeviateFromThePlan/WME-Mouse-Coordinate-Grabber/releases" alt="Total installs"><img src="https://img.shields.io/github/downloads/DeviateFromThePlan/WME-Mouse-Coordinate-Grabber/total?style=for-the-badge&label=Total%20installs%3A" /></a>
